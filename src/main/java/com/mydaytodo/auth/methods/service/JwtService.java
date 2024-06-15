@@ -76,7 +76,9 @@ public class JwtService {
     }
 
     private Boolean isTokenExpired(String token) {
-        return extractExpiration(token).before(new Date());
+        Date expirationDate = extractExpiration(token);
+        log.info("The date {} is", expirationDate.toString());
+        return expirationDate.before(new Date());
     }
 
     public Boolean validateToken(String token, UserDetails userDetails) {

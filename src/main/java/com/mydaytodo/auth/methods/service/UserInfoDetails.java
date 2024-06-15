@@ -14,7 +14,7 @@ public class UserInfoDetails implements UserDetails {
     private List<GrantedAuthority> authorities;
 
     public UserInfoDetails(User userInfo) {
-        // name = userInfo.getName();
+        name = userInfo.getUsername();
         password = userInfo.getPassword();
         /*authorities = Arrays.stream(userInfo.getRoles().split(","))
                 .map(SimpleGrantedAuthority::new)
