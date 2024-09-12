@@ -2,17 +2,16 @@
 
 A small Java repository that shows sample code on how implementation authentication techniques in a Java Spring Boot app.
 
+You can read the blog post [How to add JWT security to Java Spring Boot API] this repo supports.
+
 The code samples for different authentication methods are as follows,
 
 1. [JWT authentication]
 2. Basic authentication (to be added soon, but can be [found here])
 3. Oauth 2.0 (to be added soon)
 
-## What is Basic Authentication?
---- to be added ---
-
 ## What is JWT?
---- to be added ---
+You can read about that in this post, [How to add JWT security to Java Spring Boot API]
 
 # More great tutorials and code samples
 
@@ -25,6 +24,7 @@ You can read some of my other blopgposts such as [Upload to AWS S3 bucket from J
 
 Click on the next link for more info on the [software engineering career journey] of the author.
 
+[How to add JWT security to Java Spring Boot API]: https://mydaytodo.com/jwt-java-spring-boot/
 [found here]: https://github.com/cptdanko/custom-spring-boot-basic-auth
 [Upload to AWS S3 bucket from Java Spring Boot app]: https://mydaytodo.com/upload-to-aws-s3-bucket-from-java-spring-boot-app/
 [File share app - social file share feature]: https://mydaytodo.com/epic-social-file-share-feature/
